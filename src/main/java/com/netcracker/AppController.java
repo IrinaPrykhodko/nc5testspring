@@ -8,6 +8,6 @@ public class AppController {
 
     @RequestMapping("/")
     public String hello(){
-        return "Hello, world with ci/cd!";
+         "Hello, world with ci/cd!";
     }
 }
