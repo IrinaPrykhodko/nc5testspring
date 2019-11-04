@@ -8,6 +8,7 @@ public class AppController {
 
     @RequestMapping("/")
     public String hello(){
-        return "Hello, spring boot app without checkbox ci!";
+        return "Hello, spring boot app without checkbox ci!" +
+                "New pull request for jenkins";
     }
 }
