@@ -10,9 +10,5 @@ public class AppController {
     public String hello(){
         return  "Hello, world!";
     }
-    
-    @RequestMapping("/newHello")
-    public String newHello(){
-        return "Hello again";
-    }
+   
 }
